@@ -1,15 +1,29 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
+  <div id="app">
+    <TopNavBar />
+    <router-view />
+  </div>
 </template>
 
-<style scoped>
-*{
-  mar
+<script>
+import TopNavBar from "./components/TopNavBar.vue";
+
+export default {
+  components: {
+    TopNavBar,
+  },
+};
+</script>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-
+body {
+  font-family: "Satoshi", sans-serif;
+  color: #2a254b;
+  background-color: #ffffff;
+}
 </style>
