@@ -1,23 +1,17 @@
 <template>
   <div class="home">
     <HeroBlock />
-    <BrandBlock />
-    <CeramicsBlock />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import BrandBlock from "@/components/BrandBlock.vue";
-import CeramicsBlock from "@/components/CeramicsBlock.vue";
 import HeroBlock from "@/components/HeroBlock.vue";
 
 export default {
-  name: "HomeView",
+  name: "TablesView",
   components: {
     HeroBlock,
-    BrandBlock,
-    CeramicsBlock,
   },
 };
 </script>

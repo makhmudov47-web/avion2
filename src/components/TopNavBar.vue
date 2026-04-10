@@ -1,3 +1,5 @@
+<script setup lang="ts"></script>
+
 <template>
   <header class="header">
     <div class="header-top">
@@ -84,9 +86,9 @@
     </div>
     <hr class="header-line" />
     <nav class="header-nav">
-      <a href="#">Plant pots</a>
+      <a href="/">Plant pots</a>
       <a href="#">Ceramics</a>
-      <a href="#">Tables</a>
+      <a href="/tables">Tables</a>
       <a href="#">Chairs</a>
       <a href="#">Crockery</a>
       <a href="#">Tableware</a>
